@@ -32,7 +32,7 @@ let manager = PermissionManager::from_json(
 let unregistered_user_perm = manager.perm_from_json(
   r#"{
     "post": {
-      "view": true,
+      "view": true
       "comment": {
         "view": true
       }
